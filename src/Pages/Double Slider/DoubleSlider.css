@@ -9,6 +9,9 @@
 	/* text-align: center; */
 }
 .second-row-title {
+	font-size: max(2.5rem, 3.5vw);
+}
+.second-row-title {
 	/* background-color: aqua; */
 	text-align: center;
 }
@@ -29,7 +32,7 @@
 	position: absolute;
 	background-color: rgb(0, 0, 0);
 	border: none;
-	opacity: 0.2;
+	opacity: 0.3;
 	transition: 300ms ease-out;
 	z-index: 10;
 }
@@ -47,19 +50,25 @@
 .second-img-wrapper {
 	margin: 1rem;
 	background-color: aliceblue;
-	transition: 300ms ease-out;
+	/* transition: 300ms ease-out; */
 	height: 15rem;
 }
 .second-img-wrapper:hover {
 	transform: translateY(-10px);
 	transform: scale(1.1);
-	transition: 300ms ease-in;
+	transition: 300ms ease-in-out;
 }
 .second-img-wrapper > img {
-	height: 70%;
+	height: 80%;
 }
 .second-img-wrapper > p {
+	padding: 0.5rem;
+	text-align: center;
 	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 160px;
+	height: 1.2em;
+	white-space: nowrap;
 }
 
 .double-slider-area > button > img {

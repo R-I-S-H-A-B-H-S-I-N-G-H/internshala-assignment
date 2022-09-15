@@ -21,6 +21,9 @@
 	margin: 2rem 0rem;
 	/* background-color: aqua; */
 }
+.first-row-wrapper > h1 {
+	font-size: max(2.5rem, 3.5vw);
+}
 .first-row {
 	display: flex;
 	align-items: center;
@@ -34,12 +37,24 @@
 
 .top-img-wrapper {
 	/* background-color: aqua; */
-	/* width: 30%; */
+	/* width: 40%; */
 	/* height: 30%; */
 	/* aspect-ratio: 1; */
 	margin: 1rem;
 	background-color: aliceblue;
-	transition: 300ms ease-out;
+	/* transition: 300ms ease-out; */
+}
+.top-img-wrapper > p {
+	min-width: 100%;
+	/* background-color: blanchedalmond; */
+	font-weight: bold;
+	padding: 0.5rem 0rem;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 160px;
+	height: 1.2em;
+	white-space: nowrap;
 }
 .top-img-wrapper > img {
 	height: max(10rem, 15vw);
@@ -48,7 +63,7 @@
 .top-img-wrapper:hover {
 	transform: translateY(-10px);
 	transform: scale(1.1);
-	transition: 300ms ease-in;
+	transition: 300ms ease-in-out;
 }
 .first-row > button {
 	/* top: 10px; */
