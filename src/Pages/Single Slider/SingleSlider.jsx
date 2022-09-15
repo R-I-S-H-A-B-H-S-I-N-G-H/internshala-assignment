@@ -70,7 +70,7 @@ class SingleSlider extends Component {
 									<img
 										src={this.state.second ? ele.artist_image : ele.imageLarge}
 									/>
-									<p>{this.state.second ? ele.artist_name : ele.mp3_artist}</p>
+									<p>{this.state.second ? ele.artist_name : ele.mp3_title}</p>
 								</div>
 							);
 						})}
